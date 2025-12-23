@@ -4,7 +4,7 @@ docker run -d \
   -e POSTGRES_USER=postgres \
   -e POSTGRES_PASSWORD=postgres \
   -e POSTGRES_DB=postgres \
-  postgres:15-alpine
+  pgvector/pgvector:pg16
 
 docker run -d \
   --name memmachine-neo4j \
